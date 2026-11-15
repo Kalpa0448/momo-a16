@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Magisk 檢查器</string>
+
+    <string name="test1">檢查 PATH 中是否存在 su</string>
+    <string name="test1_1">PATH 中存在 su</string>
+    <string name="test1_0">PATH 中不存在 su</string>
+
+    <string name="test2">檢查是否有系統檔案被 Magisk 模組修改</string>
+    <string name="test2_0">未發現被 Magisk 模組修改的系统檔案</string>
+    <string name="test2_1">%1$d 个系統檔案被 Magisk 模組修改</string>
+
+    <string name="test3">檢查 Magisk Hide</string>
+    <string name="test3_1">Magisk Hide已啟用，pid %1$d</string>
+    <string name="test3_0">未發現Magisk Hide</string>
+
+    <string name="display">%1$s\n檢查结果：%2$s</string>
+    <string name="error">執行環境異常，系統被Root或應用程式被修改</string>
+    <string name="test_e">檢查過程出現異常</string>
+
+    <string name="save_log">儲存日誌</string>
+</resources>

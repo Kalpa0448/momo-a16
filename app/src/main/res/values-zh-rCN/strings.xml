@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Magisk检测应用</string>
+
+    <string name="test1">检测PATH中是否存在su</string>
+    <string name="test1_1">PATH中存在su</string>
+    <string name="test1_0">PATH中不存在su</string>
+
+    <string name="test2">检测是否有系统文件被Magisk模块修改</string>
+    <string name="test2_0">未发现被Magisk模块修改的系统文件</string>
+    <string name="test2_1">%1$d 个系统文件被Magisk模块修改</string>
+
+    <string name="test3">检测Magisk Hide</string>
+    <string name="test3_1">Magisk Hide已启用，pid %1$d</string>
+    <string name="test3_0">未找到Magisk Hide</string>
+
+    <string name="display">%1$s\n检测结果：%2$s</string>
+    <string name="error">运行环境异常，系统被Root或app被修改</string>
+    <string name="test_e">检测出现意外</string>
+
+    <string name="save_log">保存日志</string>
+</resources>

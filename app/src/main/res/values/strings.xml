@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Magisk Detector</string>
+
+    <string name="test1">Check if su file exists in PATH</string>
+    <string name="test1_1">su file exists in PATH</string>
+    <string name="test1_0">su file does not exist in PATH</string>
+
+    <string name="test2">Check if the system file is modified by Magisk module</string>
+    <string name="test2_0">No system file modified by Magisk module</string>
+    <string name="test2_1">Magisk module modified %1$d system files</string>
+
+    <string name="test3">Check Magisk Hide</string>
+    <string name="test3_1">Magisk Hide is enabled, pid %1$d</string>
+    <string name="test3_0">Not found Magisk Hide</string>
+
+    <string name="display">%1$s\nTest results: %2$s</string>
+    <string name="error">App been hacked</string>
+    <string name="test_e">Unexpected</string>
+
+    <string name="save_log">Save log</string>
+</resources>
